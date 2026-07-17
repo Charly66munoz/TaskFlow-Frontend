@@ -1,4 +1,4 @@
-function HomePage() {
+function LandingPage() {
   return (
     <main>
       <h1>TaskFlow</h1>
@@ -7,4 +7,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default LandingPage;
