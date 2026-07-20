@@ -25,13 +25,13 @@ function MainLayout(){
               </div>
             </div>
             <div className="flex flex-1 flex-col-reverse md:flex-row">
-              <aside className="hidden md:flex  shrink-0  md:items-center ">
+              <aside className="hidden md:flex  shrink-0 md:items-center ">
                 <Sidebar />
               </aside>
               <aside className="fixed right-5 left-5 bottom-5 md:hidden ">
                 <Sidebar />
               </aside>
-              <main className="flex-1 sm:basis-3/3 p-5">
+              <main className="flex-1 sm:basis-3/3 p-5 mb-20 ">
                 <Outlet />
               </main>
             </div>
