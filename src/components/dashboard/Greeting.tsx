@@ -21,7 +21,7 @@ const Greeting = ()=>{
               <p className="text-lg font-extrabold">5</p>
             </div>
             <div className=" basis-1/3 text-center">
-              <p className="">Terminadas...</p>
+              <p className="">Finalizadas...</p>
               <p className="text-lg font-extrabold">3</p>
             </div>
             <div className=" basis-1/3 text-center">
