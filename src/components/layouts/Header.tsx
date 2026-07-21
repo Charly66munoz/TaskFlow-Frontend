@@ -22,13 +22,12 @@ const Header = ()=>{
             <span className="sr-only">Your Company</span>
             <img
               alt=""
-              src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
-              className="h-8 w-auto"
+              src="TaskFlowLogo.svg"
+              className="h-10 w-auto"
             />
           </a>
         </div>
 
-        
         {/* <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
               <a key={item.name} href={item.href} className="text-sm/6 font-semibold text-white">
@@ -38,7 +37,7 @@ const Header = ()=>{
           </div> */}
         <div className=" lg:flex lg:flex-1 lg:justify-end">
           <a href="#" className="text-md/6 font-semibold text-purple-600 ">
-            Log out 
+            Log out
           </a>
         </div>
       </nav>

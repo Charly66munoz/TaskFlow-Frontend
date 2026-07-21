@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" width="100%" height="100%">
+  <g id="TaskFlow-Logo">
+    <!-- Marca de verificación (Checkmark morado en trazo estilo marcador) -->
+    <path d="M 165,160 
+             C 175,185 185,210 200,235 
+             C 210,250 220,265 225,270 
+             C 228,273 232,270 235,260 
+             C 245,230 265,180 290,130 
+             C 320,70 350,25 375,10 
+             C 380,7 385,15 380,25 
+             C 360,65 325,125 295,180 
+             C 270,225 250,265 240,285 
+             C 236,293 226,295 220,280 
+             C 205,250 185,210 170,180 
+             C 162,165 160,152 165,160 Z" 
+          fill="#8338EC" />
+
+    <!-- Capas de textura para el marcador -->
+    <path d="M 172,175 C 185,200 202,235 222,268 C 226,275 231,270 236,258 C 260,205 298,135 342,65 C 358,40 372,20 378,15 C 374,22 358,48 340,78 C 300,145 260,215 235,262 C 230,271 224,271 220,260 C 202,230 185,198 172,175 Z" 
+          fill="#9D4EDD" opacity="0.8" />
+    <path d="M 180,190 C 192,212 208,242 225,270 C 230,278 234,265 242,248 C 270,192 312,118 360,42 C 370,26 376,18 372,22 C 355,50 320,110 285,170 C 255,222 232,262 227,268 C 223,273 220,268 215,255 C 200,228 188,202 180,190 Z" 
+          fill="#7014F4" opacity="0.9" />
+
+    <!-- Texto Task (Crema) y Flow (Morado) -->
+    <text x="10" y="165" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="800" font-size="105" fill="#FAF8F5" letter-spacing="-3">Task</text>
+    <text x="245" y="165" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="800" font-size="105" fill="#C852EC" letter-spacing="-3">Flow</text>
+  </g>
+</svg>
