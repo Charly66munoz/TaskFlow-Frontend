@@ -7,6 +7,7 @@ const deadline = new Date("2026-08-05");
 export const tasks: Task[] = [
     {
         id: uuid(),
+        title: "Estudiar",
         description: "Preparar examen de lengua",
         assigneeTo: users[1],
         priority: 'high',
@@ -34,6 +35,7 @@ export const tasks: Task[] = [
 
     {
         id: uuid(),
+        title: "Front-end works" ,
         description: "Diseñar pantalla de Login",
         assigneeTo: users[2],
         priority: "high",
@@ -53,6 +55,7 @@ export const tasks: Task[] = [
 
     {
         id: uuid(),
+        title: "Correcciones bugs",
         description: "Corregir errores reportados en producción",
         assigneeTo: users[1],
         priority: "high",
@@ -72,6 +75,7 @@ export const tasks: Task[] = [
 
     {
         id: uuid(),
+        title: "Dashboard development"        ,
         description: "Optimizar rendimiento del Dashboard",
         assigneeTo: users[2],
         priority: "high",
