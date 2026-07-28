@@ -12,7 +12,7 @@ const Header = ()=>{
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="shadow-xl/10 h-15  flex flex-col justify-center">
+    <header className="shadow-xl/10 h-15 flex flex-col justify-center">
       <nav
         aria-label="Global"
         className="flex items-center justify-between p-6 lg:px-8"
