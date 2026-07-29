@@ -8,7 +8,7 @@ export const tasks: Task[] = [
     {
         id: uuid(),
         title: "Estudiar",
-        description: "Preparar examen de lengua",
+        description: "Preparar examen integral de lengua y literatura griega",
         assigneeTo: users[1],
         priority: 'high',
         status: 'toDo',

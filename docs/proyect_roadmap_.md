@@ -75,7 +75,7 @@ Diseñar el dominio antes de construir funcionalidades.
     - Task
 
 ✅Modelar Task
-□ Modelar User
+✅Modelar User
 ✅Datos mock
 ✅Primera TaskCard
 ✅Render dinámico
