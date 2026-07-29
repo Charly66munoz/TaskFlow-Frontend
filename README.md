@@ -1,41 +1,99 @@
-# TaskFlow Frontend
+# TaskFlow
 
-Frontend of **TaskFlow**, a modern task management application built with React and TypeScript.
+TaskFlow is a task management application that I'm building as my main portfolio project while learning modern frontend and backend development.
+
+The goal is not only to finish the application, but also to practice building software following a structured process, making technical decisions, documenting them and improving the project sprint by sprint.
+
+> ⚠️ This project is currently under active development.
+
+---
 
 ## Tech Stack
+
+### Frontend
 
 - React
 - TypeScript
 - Vite
 - React Router
-- Fetch API
-- ESLint
+- Tailwind CSS
 
-## Project Structure
+### Planned Backend
 
+- FastAPI
+- SQLAlchemy
+- PostgreSQL
+
+---
+
+## Current Features
+
+- Responsive dashboard
+- Kanban board
+- Task cards
+- Mock data
+- Component-based architecture
+- Routing
+- Dark UI
+
+---
+
+## Roadmap
+
+The project is being developed in phases.
+
+Current progress:
+
+- ✅ Frontend foundation
+- ✅ UI and layout
+- ✅ Domain model and Kanban
+- ⏳ Task management
+- ⏳ Backend integration
+- ⏳ Authentication
+- ⏳ Deployment
+
+A more detailed roadmap, including sprint planning and technical decisions, is available in the project documentation.
+
+---
+
+## Why this project?
+
+I wanted a project that would allow me to practice more than just writing code.
+
+While building TaskFlow I'm working on topics such as:
+
+- Component architecture
+- TypeScript
+- React patterns
+- Responsive design
+- Clean code
+- Git workflow
+- Technical documentation
+
+---
+
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone <repository-url>
 ```
-src/
-├── assets/
-├── components/
-├── hooks/
-├── layouts/
-├── pages/
-├── routes/
-├── services/
-├── types/
-└── utils/
+
+Install dependencies:
+
+```bash
+npm install
 ```
 
-## Goal
+Run the development server:
 
-This project is part of my journey to become a Full Stack Developer. The objective is not only to build a functional application but also to apply professional software development practices such as clean architecture, version control and technical documentation.
+```bash
+npm run dev
+```
 
-## Current Status
+---
 
-- [x] Project setup
-- [x] Application routing
-- [x] Base architecture
-- [ ] Task CRUD
-- [ ] API integration
-- [ ] Authentication
-- [ ] Deployment
+## Project Status
+
+TaskFlow is currently under active development and new features are added incrementally as each sprint is completed.
