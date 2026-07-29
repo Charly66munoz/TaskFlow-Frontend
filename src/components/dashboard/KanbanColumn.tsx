@@ -6,7 +6,6 @@ types : string,
 tareas: Task[]
 }
 
-
 const KanbanColumn = ({ types, tareas }: propKanbanColum) => {
   return (
     <div className="flex flex-col h-full flex-1 min-h-0  ">
@@ -15,9 +14,7 @@ const KanbanColumn = ({ types, tareas }: propKanbanColum) => {
       </div>
       <div className="flex-1 min-h-0 overflow-y-auto custom-scrollbar mb-5 px-3 pb-4 space-y-3">
         {tareas.map((t) => (
-          <>
-            <TaskCard task={t} />
-          </>
+            <TaskCard key={t.id} task={t} />
         ))}
       </div>
     </div>

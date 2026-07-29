@@ -23,7 +23,7 @@ function KanbanBoard() {
           <KanbanColumn types="En progreso" tareas={progressTasks} />
           <KanbanColumn types="Finalizadas" tareas={finishedTasks} />
         </div>
-        <div className="lg:hidden h-full pb-20 overflow-y-auto flex gap-4 p-5 md:mx-5 mt-5 text-center rounded-xl text-slate-300">
+        <div className="md:hidden h-full pb-20 overflow-y-auto flex gap-4 p-5 md:mx-5 mt-5 text-center rounded-xl text-slate-300">
           <KanbanColumn types="Tareas" tareas={tasks} />
         </div>
       </>
